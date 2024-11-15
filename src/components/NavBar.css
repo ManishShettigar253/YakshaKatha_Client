@@ -1,0 +1,74 @@
+.navContainer {
+  background-color: #000000 !important;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 0 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navHeader {
+  color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 1rem;
+  padding-left: 5px;
+  font-size: 1.2rem;
+  background: linear-gradient(90deg, #f5a623, #ff6347);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.divider {
+  height: 24px;
+  width: 1px;
+  background-color: #ffffff;
+  margin: 0 20px;
+}
+
+.navMenuItem {
+  display: inline-block;
+  margin-right: 1rem;
+  position: relative;
+}
+
+.navMenuItem a {
+  color: #ffffff !important;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+  position: relative;
+  font-weight: normal;
+}
+
+.navMenuItem a:hover,
+.navMenuItem a:focus,
+.navMenuItem a:active {
+  color: #f5a623 !important;
+  font-weight: bold;
+}
+
+.navMenuItem a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(to right, #f5a623, #ff6347);
+  transition: width 0.3s ease;
+}
+
+.navMenuItem a:hover::after,
+.navMenuItem a:focus::after {
+  width: 100%;
+}
+
+body {
+  padding-top: 60px;
+}
