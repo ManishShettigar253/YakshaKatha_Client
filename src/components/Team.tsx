@@ -9,14 +9,15 @@ import { FaLinkedin, FaGithub, FaInstagram, FaYoutube } from 'react-icons/fa';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Kiranraj M",
-      role: "NNM23MC067",
-      designation: "Backend Developer",
+      name: "Manish",
+      role: "NNM23MC073",
+      designation: "Frontend Developer",
       college: "Dept of MCA -NMAMIT, Nitte",
-      image: Student1,
-      linkedin: "https://www.linkedin.com/in/kiran-r-m-8013281b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      github: "https://github.com/kiranRnambiar",
-      instagram: "https://www.instagram.com/kira___666_/profilecard/?igsh=dnAwcHQ3bzZ5ZmN4"
+      image: Student2,
+      linkedin: "https://www.linkedin.com/in/manish-3b6142207/",
+      github: "https://github.com/ManishShettigar253",
+      instagram: "https://www.instagram.com/manish__shettigar/profilecard/?igsh=aGlwemQwdzc2N3g2",
+      youtube: "https://www.youtube.com/@wanderlustEngineer253"
     },
     {
       name: "Mr. Ananth Murthy",
@@ -28,15 +29,14 @@ const Team = () => {
       featured: true
     },
     {
-      name: "Manish",
-      role: "NNM23MC073",
-      designation: "Frontend Developer",
+      name: "Kiranraj M",
+      role: "NNM23MC067",
+      designation: "Backend Developer",
       college: "Dept of MCA -NMAMIT, Nitte",
-      image: Student2,
-      linkedin: "https://www.linkedin.com/in/manish-3b6142207/",
-      github: "https://github.com/ManishShettigar253",
-      instagram: "https://www.instagram.com/manish__shettigar/profilecard/?igsh=aGlwemQwdzc2N3g2",
-      youtube: "https://www.youtube.com/@wanderlustEngineer253"
+      image: Student1,
+      linkedin: "https://www.linkedin.com/in/kiran-r-m-8013281b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      github: "https://github.com/kiranRnambiar",
+      instagram: "https://www.instagram.com/kira___666_/profilecard/?igsh=dnAwcHQ3bzZ5ZmN4"
     }
   ];
 
